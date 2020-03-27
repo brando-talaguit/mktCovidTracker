@@ -149,12 +149,12 @@ DROP TABLE IF EXISTS `statuses`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `statuses` (
   `status_id` int(2) unsigned NOT NULL AUTO_INCREMENT,
-  `statuse_code` varchar(10) DEFAULT NULL,
-  `statuse_name` varchar(100) DEFAULT NULL,
-  `statuse_is_active` tinyint(1) DEFAULT '1',
-  `statuse_created_at` datetime DEFAULT NULL,
-  `statuse_updated_at` datetime DEFAULT NULL,
-  `statuse_deleted_at` datetime DEFAULT NULL,
+  `status_code` varchar(10) DEFAULT NULL,
+  `status_name` varchar(100) DEFAULT NULL,
+  `status_is_active` tinyint(1) DEFAULT '1',
+  `status_created_at` datetime DEFAULT NULL,
+  `status_updated_at` datetime DEFAULT NULL,
+  `status_deleted_at` datetime DEFAULT NULL,
   PRIMARY KEY (`status_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
